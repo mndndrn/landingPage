@@ -149,6 +149,8 @@ a {
 }
 
 .container {
+    display:flex;
+    align-items: center;
     background-color: #3882f6;
     border-radius: 10px;
     padding: 30px 100px;
@@ -168,5 +170,15 @@ a {
 .actiontitle {
     color: white;
     font-weight: 900;
-  
+}
+
+
+footer {
+    background-color:#1f2937;
+    color: #f6f7ac;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
 }
