@@ -8,8 +8,8 @@ body {
     display: flex;
     justify-content: space-evenly; 
     flex-direction: column;
-    min-width: 1246px;
-    width: 1800px;
+    min-width: 1000px;
+    /* width: 1800px; */
 }
 
 .first {
@@ -106,6 +106,7 @@ a {
     display: flex;     
     text-align: center; 
     justify-content: center;
+    flex-wrap:wrap;
     gap: 40px;
 }
 
