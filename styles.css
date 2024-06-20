@@ -8,13 +8,13 @@ body {
     display: flex;
     justify-content: space-evenly; 
     flex-direction: column;
-    min-width: 1000px;
+    min-width: 1500px;
     /* width: 1800px; */
 }
 
 .first {
     background-color: #1f2937;
-    padding: 10px 100px;
+    padding: 10px 150px;
     
 }
 
@@ -59,7 +59,7 @@ header {
 }
 
 img {
-    max-height: 300px;
+    max-height: 200px;
     max-width: 400px;
 }
 
@@ -87,14 +87,13 @@ a {
 
 .second {
     background-color: white;
-    padding: 100px;
+    padding: 150px;
     
 }
 
 .infotitle {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -104,9 +103,8 @@ a {
 
 .information {
     display: flex;     
-    text-align: center; 
+    justify-items: space-around;
     justify-content: center;
-    flex-wrap:wrap;
     gap: 40px;
 }
 
@@ -120,31 +118,32 @@ a {
 
 .third {
     background-color: #e5e7eb;
-    padding: 30px 100px;
+    padding: 150px;
     display:flex;
-    flex-direction:column;
     justify-content: center;
     justify-items: center;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .quote {
-    padding: 50px 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
     color: #1f2937;
     font-style: italic;
+    width: 800px; 
 }
 
 .name {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0px 200px;
-    margin-bottom: 30px;
+    padding: 20px;
+    text-align: end;
 }
 
 
 .fourth {
     background-color: white; 
-    padding: 100px;
+    padding: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,11 +177,6 @@ a {
 footer {
     background-color:#1f2937;
     color: #f6f7ac;
-    white-space: nowrap;
-   
-}
-
-.footer {
     display: flex;
     justify-content: center;
     align-items: center;
